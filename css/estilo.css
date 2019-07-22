@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins|Ranga|Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    width: 100vw;
+    height: 100vh;;
+    background-image: linear-gradient(to right top, #ff3574, #ff4a68, #ff5d5e, #ff6f56, #ff8051);
+    margin: auto;
+}
+
+.navPos {
+    position: absolute;
+    width: 100vw;
+    margin: auto;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container90 {
+    max-width: 90%;
+    margin: auto;
+}
+
+.brand {
+    color: #f2f2f2;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    padding: 0 0.5rem;
+    font-size: 0.7rem;
+}
+
+.menu_link {
+    color: #f2f2f2;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.hero {
+    color: #121212;
+    font-family: 'Poppins';
+    font-size: 4rem;
+}
+
+.hero-info {
+    color: #121212;
+}
+
+#section1,#section2 {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
